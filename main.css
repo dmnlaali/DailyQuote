@@ -1,0 +1,101 @@
+/* Default light theme */
+body.light-mode {
+    background-color: rgb(173, 172, 172);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 5px;
+        margin-top: 1.5rem;
+        background-color: #a1a1a1;
+        color: white;
+    }
+}
+
+#quote-text {
+    position: relative;
+    top: 5rem;
+}
+
+#time-left {
+    position: relative;
+    top: 5rem;
+}
+
+#share-twitter {
+    position: relative;
+    top: 4rem;
+}
+
+.theme-switcher button {
+    position: relative;
+    top: 3rem;
+}
+
+body.dark-mode {
+    background-color: #525252;
+    color: #525252;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    a {
+        color: #525252;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 5px;
+        margin-top: 1.5rem;
+        background-color: #4e4e4e;
+        color: white;
+    }
+}
+
+/* Container styling */
+#quote-container {
+    text-align: center;
+    margin: auto;
+    height: 20rem;
+    width: 30rem;
+    background-color: rgb(138, 137, 137);
+    border-radius: 2rem;
+    border-color: #5f5252;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 1.5rem;
+    background-color: #a1a1a1;
+    color: white;
+}
+
+/* Theme switcher styling */
+.theme-switcher {
+    margin:auto;
+}
+
+a {
+    color: #ffffff; /* Twitter blue */
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: underline;
+}
